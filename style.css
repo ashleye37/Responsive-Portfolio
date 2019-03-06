@@ -62,6 +62,7 @@ body {
     color: #777777;
     margin: 0px;
     align-content: center;
+
 }
 
 /* .container is in index.html document only. */
@@ -119,7 +120,7 @@ footer {
     border-color: #4aaaa5;
     border-top-style: solid;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     font-size: 10px;
     color: #ffffff;
