@@ -5,12 +5,10 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-color: #cccccc;
     border-bottom-style: solid;
-    padding-left: 100px;
 }
 
 /* Header used in index, portfolio and contact documents.*/
 .header-content {
-    width: 960px;
     padding: 40px 0px 20px 100px;
     position: relative;  
 }
@@ -39,7 +37,6 @@ ul {
     list-style-type: none;
     position: relative;
     bottom: 30px;
-    left: 80px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -122,7 +119,7 @@ footer {
     border-color: #4aaaa5;
     border-top-style: solid;
     width: 100%;
-    position: relative;
+    position: absolute;
     bottom: 0px;
     font-size: 10px;
     color: #ffffff;
@@ -198,19 +195,82 @@ form {
     top: 100px;
 }
 
-@media only screen and (max-width:980px) body {
+@media only screen and (max-width: 980px) {
+
+header {
+    padding-left: 0px;
+}
+.header-content {
+    padding: 40px 0px 20px 0px;
+    width: 100%;
+}
+ul {
+    left: 0px;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
+.container {
+    width: 860px;
+}
+
+#name {
+    width: 860px;
+}
+
+#email {
+    width: 860px;
+}
+
+#message {
+    width: 860px;
+}
+}
+
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
+.container {
+    width: 500px;
+}
+
+ul {
+    left: 0px;
+}
+
+#name {
+    width: 500px;
+}
+
+#email {
+    width: 500px;
+}
+
+#message {
+    width: 500px;
+
+}
+
+@media only screen and (max-width: 640px) {
+.container {
+    width: 350px;
+}
+
+ul {
+    left: 0px;
+}
+
+.level1 {
+    position: relative;
+    float: none;
+    padding-left: 60px;
+}
+#name {
+    width: 350px;
+}
+
+#email {
+    width: 350px;
+}
+
+#message {
+    width: 350px;
+}
+
