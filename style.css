@@ -9,8 +9,7 @@ header {
 
 /* Header used in index, portfolio and contact documents.*/
 .header-content {
-    padding: 40px 0px 20px 100px;
-    position: relative;  
+    padding: 40px 0px 20px 0px; 
 }
 
 /* Clearfix added as a class name inside the header-content class name. Used in index, portfolio and contact documents.*/
@@ -24,10 +23,8 @@ header {
 h1 {
     background-color: #4aaaa5;
     position: absolute;
-    bottom: 0px;
     top: 0px;
     padding: 20px;
-    float: left;
     color: #ffffff;
     margin: auto;
 }
